@@ -1,8 +1,8 @@
 import { CREATE_PROFILE, MAIN, PROFILE, VIEW_PROFILES } from "../utils/consts";
-import CreateProfile from "./CreateProfile";
-import Main from "./Main";
-import Profile from "./Profile";
-import ViewProfiles from "./ViewProfiles";
+import CreateProfile from "../pages/CreateProfilePage";
+import Main from "../pages/MainPage";
+import Profile from "../pages/ProfilePage";
+import ViewProfiles from "../pages/ViewProfilePage";
 
 export const publicRoutes = [
   {
