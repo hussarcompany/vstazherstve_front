@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/vstazherstve_front/static/css/main.b4c8c2cd.chunk.css",
+    "main.js": "/vstazherstve_front/static/js/main.0d4b36b3.chunk.js",
+    "main.js.map": "/vstazherstve_front/static/js/main.0d4b36b3.chunk.js.map",
+    "runtime-main.js": "/vstazherstve_front/static/js/runtime-main.86872339.js",
+    "runtime-main.js.map": "/vstazherstve_front/static/js/runtime-main.86872339.js.map",
+    "static/js/2.0c403dd9.chunk.js": "/vstazherstve_front/static/js/2.0c403dd9.chunk.js",
+    "static/js/2.0c403dd9.chunk.js.map": "/vstazherstve_front/static/js/2.0c403dd9.chunk.js.map",
+    "index.html": "/vstazherstve_front/index.html",
+    "static/css/main.b4c8c2cd.chunk.css.map": "/vstazherstve_front/static/css/main.b4c8c2cd.chunk.css.map",
+    "static/js/2.0c403dd9.chunk.js.LICENSE.txt": "/vstazherstve_front/static/js/2.0c403dd9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86872339.js",
+    "static/js/2.0c403dd9.chunk.js",
+    "static/css/main.b4c8c2cd.chunk.css",
+    "static/js/main.0d4b36b3.chunk.js"
+  ]
+}
