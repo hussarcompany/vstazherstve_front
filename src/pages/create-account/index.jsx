@@ -87,16 +87,19 @@ export function RegisterForm () {
 
         const user = form;
 
-        axios.post('https://vstazuserserviceprovider.herokuapp.com/send_here', 
-            user, 
-            {
-                headers: { 
-                    'Content-Type' : 'text/json' 
-                }
-            }
-            ).then(res => {
-            if (res) setShowResponseMessage(true) 
-        });
+        axios({
+            method: "POST",
+            url: "https://vstazuserserviceprovider.herokuapp.com/send_here",
+            headers: {
+            },
+            data: user,
+          })
+          .then(res => {
+            console.log("res", res.data.message);
+          })
+          .catch(err => {
+            console.log("error in request", err);
+          });
     }
 
     //Todo: Валидация
