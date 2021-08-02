@@ -3,6 +3,7 @@ export const CREATE_PROFILE = '/create_profile'
 export const PROFILE = '/profile'
 export const VIEW_PROFILES = '/view_profiles'
 export const MAIN = '/vstazherstve_front'
+export const CREATE_ACCOUNT = '/create_account'
 
 //base api
 export const BASE_API_URL = 'http://localhost:8080'
